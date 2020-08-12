@@ -15,7 +15,7 @@ myFavFilms = ['Before Sunset', 'Princess Mononoke', '2001: A Space Odyssey', 'Th
 desiredUser = []
 desiredUser_count = []
 
-for i in range(18,129): # note that this means it will iterate from i=1 to i=128
+for i in range(1,129): # note that this means it will iterate from page number i=1 to i=128
 
     # pause the loop (in order not to bombard the site with too many requests)
     sleep(randint(8,15))
